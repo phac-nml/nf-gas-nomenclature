@@ -10,7 +10,7 @@ A simple pipeline for assigning cluster codes to samples, utilizing existing clu
 ## Basic Usage
 
 ```
-nextflow run --input {PATH/TO/INPUT_SHEET.csv} --outdir {OUTPUT_DIRECTORY_LOCATION} -profile {singularity/docker}
+nextflow run ./main.nf --input {PATH/TO/INPUT_SHEET.csv} --outdir {OUTPUT_DIRECTORY_LOCATION} -profile {singularity/docker}
 ```
 
 
